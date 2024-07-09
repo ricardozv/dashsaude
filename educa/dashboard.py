@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 
 # Carregar os dados
-file_path = 'data/censo-ma.csv'
+file_path = 'censo-ma.csv'
 try:
     df = pd.read_csv(file_path, delimiter=';', encoding='utf-8')
 except UnicodeDecodeError:
